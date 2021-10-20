@@ -37,7 +37,7 @@ function sortNumeric() {
 }
 
 /* Custom Sorting Function using Swapping variable Method*/
-const nums = [40, 100, 1, 80, 5, 25, 10, 45];
+const nums = [40, 100, 1, 80, 5, 25, 10, 90, 45];
 function sortArray(arr) {
     let sort = true;
     while (sort) {
@@ -90,24 +90,27 @@ function findLowest(arr) {
 }
 
 // Find the second Highest. A TOUGH ONE
+
 function secondHighest(arr) {
     let len = arr.length;
     let max = -Infinity;
     let sndMax = -Infinity;
     while (len--) {
         if (arr[len] > max) {
-            max = arr[len];
             sndMax = max;
-            console.log(`Max: ${max}`);
+            max = arr[len];
         }
-        else if ((arr[len] > sndMax) && (arr[len] < max)){
+        else if ((arr[len] > sndMax) && (arr[len] != max)){
             sndMax = arr[len];
-            console.log(`Second Max: ${sndMax}`);
-            console.log('------------------');
         }
     }
+    console.log(`Max: ${max}`);
+    console.log(`Second Max: ${sndMax}`);
     return
+    
 }
+
+secondHighest(nums)
 /* Sorting OBJECT Arrays */
 const cars = [
     {type:"Volvo", year:2016},
