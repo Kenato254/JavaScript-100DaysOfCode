@@ -89,7 +89,7 @@ function findLowest(arr) {
     return min;
 }
 
-// Find the second Highest. A TOUGH ONE
+// Find the second Highest.
 
 function secondHighest(arr) {
     let len = arr.length;
