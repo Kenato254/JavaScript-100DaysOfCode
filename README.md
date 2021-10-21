@@ -6,3 +6,4 @@
 |Day|Topic|Day|Topic
 |:---:|:-----:|:---:|:-----:|
 |[Day 1](#day-1) **19th Oct 2021**|JavaScript Arrays:Sorting-Arrays, Reversing an Array, Numeric Sort, The Compare Function, The Fisher Yates Method, Using Math.min() on an Array, Custom Min/Max and Sorting Object Arrays.|[Day 2](#day-2) **20th Oct 2021**|JavaScript Arrays:Iterations-Methods, Covered ForEach, Map, Filter, Some, Every, Reduce/ReduceIndexOf, Index/LastIndexOf and others.
+|[Day 3](#day-3) **21th Oct 2021**|Touched a little bit on objects and object methods and did some practical exercises at www.jshero.net.
