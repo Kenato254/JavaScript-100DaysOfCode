@@ -66,7 +66,7 @@ function combo() {
     console.log();
     const date3 = new Date("Oct 22 2021");
     console.log(`Long Dates: ${date3}`);
-    let secSince1970 = Date.parse(date3);
+    let secSince1970 = Date.parse(date3); // so is getTime()
     console.log(`Miliseconds since 1/1/1970: ${secSince1970}`);
 }
 combo()
