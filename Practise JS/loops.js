@@ -99,13 +99,15 @@ function myfunc6() {
 
 /*Do While */
 function myfunc7() {
-    let number = 10; // npm install prompt
+    let number; // npm install prompt
     do {
         console.log('Welcome to number guess');
-        console.log("Enter 10 to exit loop.")
+        console.log("Enter 10 to exit loop.");
+        number = prompt('Guess a number: ');
     }
     while (number != 10)
 }
+myfunc7()
 
 /* Break Statment*/
 function myfunc8() {
@@ -135,4 +137,3 @@ function myfunc10() {
     }
     console.log(text)
 }
-myfunc10();
