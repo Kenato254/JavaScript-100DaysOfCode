@@ -1,0 +1,46 @@
+body {
+    margin: 100px;
+}
+.contain {
+    position: relative;
+}
+.box {
+    border: none;
+    border-radius: 5px;
+    width: 10em;
+    height: 5em;
+    background: rgba(195, 0, 255, 0.849);
+    transition-duration: 1000ms;
+    transition-property: width;
+    transition-delay: 50ms;
+}
+
+.box:hover {
+    background: rgb(100, 149, 237);
+    width: 20em;
+}
+
+.one {
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    background: rgba(111, 25, 138, 0.849);
+    transition-timing-function: ease;
+    transform: rotate(10deg);
+    transform: scale(2)
+
+}
+.two {
+    background: rgba(30, 255, 0, 0.849);
+    transition-timing-function: ease-in;
+
+}.three {
+    background: rgba(255, 0, 34, 0.849);
+    transition-timing-function: ease-out;
+
+}.four {
+    background: rgba(195, 0, 255, 0.849);
+    transition-timing-function: ease-in-out;
+
+}
