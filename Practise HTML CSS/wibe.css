@@ -3,12 +3,15 @@ html {
     margin: 0px;
 }
 body {
+    padding: 0px;
     position: relative;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1em;
 }
+
 /* Header Style */
 header {
+    padding: 1.5em;
     font-weight: 700;
 }
 .logo{
@@ -23,14 +26,31 @@ header {
 }
 /* Main Styles */
 .parent-main {
-    margin-top: 17em;
     font-weight: 700;
-    padding-left: 5em;
 }
 .para-main {
-    font-size: 1.8em;    
-    width: 19em;
+    font-size: 1.8em; 
+    display: block;
+   
 }
+.side-bar {
+    margin: 100px auto;
+    width: 15em;    
+    transform: rotate(-90deg) translateY(47vw);
+    overflow: hidden;
+}
+.h2side-bar {
+    font-size:small;
+    font-weight: lighter;
+    transition-property: color;
+    transition-duration: 100ms;
+    transition-delay: 50ms;
+    transition-timing-function: ease;
+}
+.h2side-bar:active{
+    color: rgb(255, 0, 0);
+}
+
 
 /* Nav Style  */
 nav {
@@ -60,29 +80,16 @@ footer a:link {
 
 @media screen and (min-width: 1024px) {
     body {
-        padding: 1em;
+        padding: 0px;
+        margin: 0px;
     }
+
     .parent-main {
-        font-size: 1.5em;
-        margin-top: 10em;
-        padding-left: 10em;
+        margin: 0;
+        padding: 0;
     }
     footer {
         padding-top: 1em;
         padding-left: 15em;
     }
 }
-/* @media screen and (min-width: 768px) {
-    body {
-        padding: 1em;
-    }
-    .parent-main {
-        font-size: 1.5em;
-        margin-top: 10em;
-        padding-left: 10em;
-    }
-    footer {
-        padding-top: 1em;
-        padding-left: 15em;
-    }
-} */
