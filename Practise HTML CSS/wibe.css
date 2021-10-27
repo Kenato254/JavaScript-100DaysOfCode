@@ -43,11 +43,11 @@ header {
     font-size:small;
     font-weight: lighter;
     transition-property: color;
-    transition-duration: 100ms;
+    transition-duration: 1000ms;
     transition-delay: 50ms;
-    transition-timing-function: ease;
+    transition-timing-function: ease-in-out;
 }
-.h2side-bar:active{
+.h2side-bar:hover{
     color: rgb(255, 0, 0);
 }
 
