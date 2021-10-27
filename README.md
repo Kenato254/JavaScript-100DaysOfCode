@@ -9,3 +9,4 @@
 |[Day 3](#day-3) **21th Oct 2021**|Touched a little bit on objects and object methods and did some practical exercises at www.jshero.net.|[Day 4](#day-4) **22th Oct 2021**|Topic Covered: JavaScript Dates, Date Methods and Formats. I also did come CSS topics covering: Z-Index, Overflow, Float, and Float Clear.
 |[Day 5](#day-5) **23th Oct 2021**|Topics covered today: JS Math, JS Random, JS Booleans, JS Comparisons and JS IF ELSE. Extra Topics Covered: HMTL Entities, Symbols and Emojis. |[Day 6](#day-6) **24th Oct 2021**|Topic of the day: JS Switch Statement.
 |[Day 7](#day-7) **25th Oct 2021**|Topics Covered today: JS Loop For, Loop While and Break.|[Day 8](#day-8) **26th Oct 2021**|Covered: JS Try and Catch statements, Arrow functions, Ternary operator and nested ternary and "use strict.
+|[Day 9](#day-9) **27th Oct 2021**|JS Topics:TypeConversion, Bitwise and Regular Expression. Extra-topics: CSS Transition and Transform.
