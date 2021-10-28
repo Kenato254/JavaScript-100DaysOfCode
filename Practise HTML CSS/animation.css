@@ -1,38 +1,40 @@
 body {
-    margin: 100px;
+    margin: 50px;
 }
-.contain {
+.container-box {
     position: relative;
+    padding: .5em 0;
+}
+.inner-container{
+    margin: 1em;
 }
 .box {
-    border: none;
-    border-radius: 5px;
+    border:none;
+    border-radius: 200em;
     width: 10em;
-    height: 5em;
+    margin: 1em;
+    height: 10em;
     background: rgba(195, 0, 255, 0.849);
     transition-duration: 1000ms;
-    transition-property: width;
+    /* transition-property: bottom; */
     transition-delay: 50ms;
 }
 
 .box:hover {
+    right: 2em;
     background: rgb(100, 149, 237);
-    width: 20em;
+    /* transform: translate(2); */
 }
 
 .one {
-    /* position: absolute; */
-    top: 50%;
-    left: 50%;
-    margin: auto;
-    background: rgba(111, 25, 138, 0.849);
-    transition-timing-function: ease;
+    background: rgba(14, 207, 40, 0.849);
+    /* transition-timing-function: ease; */
     transform: rotate(10deg);
-    transform: scale(2)
 
 }
 .two {
-    background: rgba(30, 255, 0, 0.849);
+    margin: auto;
+    background: rgba(0, 0, 0);
     transition-timing-function: ease-in;
 
 }.three {
@@ -42,5 +44,48 @@ body {
 }.four {
     background: rgba(195, 0, 255, 0.849);
     transition-timing-function: ease-in-out;
-
+}
+.five {
+    background-color: rgb(6, 117, 6);
+    transition-timing-function: ease-in-out;
+}
+/* Sections */
+.section {
+    background-color: rgb(255, 255, 255);
+}
+.section-one {
+    background-color: rgb(0, 0, 0);
+}
+.section-two {
+    background-color: rgb(33, 214, 109);
+}
+/* Cards */
+.card-parent {
+    margin: auto;
+}
+.card-child {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    border-bottom: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+}
+.inner-child {
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-weight: 900;
+    width: 202px;
+    height: 2em;
+    border: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: rgb(6, 117, 6);
+}
+.inner-child:hover {
+    cursor: pointer;
+    background-color: rgb(12, 170, 12);
 }
