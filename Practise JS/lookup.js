@@ -111,4 +111,4 @@ function freezObj() {
 // Number 7 arrow function 
 const add = (a, b) => a+b;
 
-console.log(add(10, 1));
+// console.log(add(10, 1));
