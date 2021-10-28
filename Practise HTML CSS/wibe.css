@@ -30,8 +30,6 @@ header {
 }
 .para-main {
     font-size: 1.8em; 
-    display: block;
-   
 }
 .side-bar {
     margin: 100px auto;
@@ -40,6 +38,7 @@ header {
     overflow: hidden;
 }
 .h2side-bar {
+    cursor: pointer;
     font-size:small;
     font-weight: lighter;
     transition-property: color;
@@ -88,8 +87,8 @@ footer a:link {
         margin: 0;
         padding: 0;
     }
-    footer {
-        padding-top: 1em;
-        padding-left: 15em;
-    }
+    .para-main {
+        display: inline-block;
+        width: 90%;
+        }
 }
