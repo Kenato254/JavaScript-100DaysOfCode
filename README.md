@@ -10,4 +10,4 @@
 |[Day 5](#day-5) **23th Oct 2021**|Topics covered today: JS Math, JS Random, JS Booleans, JS Comparisons and JS IF ELSE. Extra Topics Covered: HMTL Entities, Symbols and Emojis. |[Day 6](#day-6) **24th Oct 2021**|Topic of the day: JS Switch Statement.
 |[Day 7](#day-7) **25th Oct 2021**|Topics Covered today: JS Loop For, Loop While and Break.|[Day 8](#day-8) **26th Oct 2021**|Covered: JS Try and Catch statements, Arrow functions, Ternary operator and nested ternary and "use strict.
 |[Day 9](#day-9) **27th Oct 2021**|JS Topics:TypeConversion, Bitwise and Regular Expression. Extra-topics: CSS Transitions and Transform property.|[Day 10](#day-10) **28th Oct 2021**|Topics covered: More practise on JS RegEx and CSS Transitions and Transform Property.
-|[Day 11](#day-11) **29th Oct 2021**|Topics: JS Scope and Hoisting and little more on JS Errors. Extras: CSS.
+|[Day 11](#day-11) **29th Oct 2021**|Topics: JS Scope and Hoisting and little more on JS Errors. Extras: CSS.|[Day 12](#day-12) **30th Oct 2021**|Topics: JS Strict Mode & JS This Keyword. Extras: CSS Pseudo Elements.
