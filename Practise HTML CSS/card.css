@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 body {
-    display: grid;
+    display: flex;
     min-height: 100vh;
     place-items: center;
     line-height: 1.6;
@@ -24,6 +24,7 @@ body {
     border-radius: .5rem;
     overflow: hidden;
     transition: transform 500ms ease-in-out;
+    margin: 0 10px 0 50px;
 }
 .card:hover, 
 .card:focus-within {
