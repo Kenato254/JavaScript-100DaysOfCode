@@ -1,0 +1,98 @@
+body {
+    position: relative;
+    background-color: black;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.box {
+    border: 1px solid white;
+    padding: 5px 10px;
+    margin: auto;
+    width: 60vw;
+    text-align: justify;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 50px;
+    -moz-column-gap: 50px;
+    column-gap: 50px;
+}
+
+/* First Elements */
+.container {
+    padding: 2em 0 1em 0;
+    border: 1px solid white;
+    /* position: absolute;
+    top: 50%; */
+    text-align: justify;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 50px;
+    -moz-column-gap: 50px;
+    column-gap: 20px;
+    font-size: 0;
+}
+.common {
+    margin-bottom: 1rem;
+    vertical-align: middle;
+    line-height: 1.6;
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+    width: 40vw;
+    height: 20vw;
+    border-radius: 10px;
+}
+.child-one {
+    background: turquoise;
+    width: 100%;
+}
+.child-two {
+    background: yellow;
+}
+.child-three {
+    background: violet;
+}
+.child-four {
+    background: coral;
+}
+
+/* ul li group */
+ .grid-container {
+    border-left: 1px dashed white;
+    border-right: 1px dashed white;
+    font-size: 0;
+ }
+ .grid-container::after {
+     content: "";
+     /* display: inline-block; */
+     /* width: 100%; */
+ }
+ .grid-item {
+     font-size: 1rem;
+     display: inline-block;;
+     width: 42%;
+     background: gray;
+     padding: 1.7em;
+     margin: .6em 0;  
+ }
+
+ /* Third Elements*/
+ .center {
+    line-height: 200px;
+    height: 200px;
+    border: 3px solid green;
+    text-align: center;
+  }
+  
+  /* If the text has multiple lines, add the following: */
+  .center p {
+    line-height: 1.7;
+    display: block;
+    vertical-align: middle;
+  }

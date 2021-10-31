@@ -1,0 +1,36 @@
+body {
+    display: block;
+    background:  grey;
+}
+.common {
+    width: 100%;
+    height: 30vh;
+}
+.verticle-align-padding {
+    background: greenyellow;
+    text-align: center;
+}
+.verticle-align-line-height {
+    background: hotpink;
+    line-height: 200px;
+    text-align: center;
+}
+
+.verticle-align-position-tranform {
+    background:mediumspringgreen;
+    position: relative;
+}
+.verticle-align-position-tranform h3 {
+    background:mediumspringgreen;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+}
+.verticle-align-flexbox {
+    background: ivory;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
