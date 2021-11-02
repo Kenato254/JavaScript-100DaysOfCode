@@ -1,86 +1,64 @@
+:root {
+    --clr-neutral-900: hsl(207, 19%, 9%);
+    --clr-neutral-100: hsl(0, 0%, 100%);
+    --clr-accent-400: hsl(143, 41%, 54%);
+}
 body {
-    margin: 50px;
+    /* background-color: rgba(85, 83, 83, 0.336); */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
 }
-.container-box {
+div > span {
+    display: none;
+    color: var(--clr-neutral-100);
+}
+.card {
     position: relative;
-    padding: .5em 0;
-}
-.inner-container{
-    margin: 1em;
-}
-.box {
-    border:none;
-    border-radius: 200em;
+    background-color: var(--clr-neutral-900);
+    border-radius: .8em;
+    margin-bottom: 1em;
+    text-align: center;
     width: 10em;
-    margin: 1em;
-    height: 10em;
-    background: rgba(195, 0, 255, 0.849);
-    transition-duration: 1000ms;
-    /* transition-property: bottom; */
-    transition-delay: 50ms;
+    height: 20em;
+    overflow: hidden;
 }
-
-.box:hover {
-    right: 2em;
-    background: rgb(100, 149, 237);
-    /* transform: translate(2); */
+.card-content {
+    
 }
-
-.one {
-    background: rgba(14, 207, 40, 0.849);
-    /* transition-timing-function: ease; */
-    transform: rotate(10deg);
-
+.card-h3 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: var(--clr-neutral-100);
+    width: 6.5em;
 }
-.two {
-    margin: auto;
-    background: rgba(0, 0, 0);
-    transition-timing-function: ease-in;
-
-}.three {
-    background: rgba(255, 0, 34, 0.849);
-    transition-timing-function: ease-out;
-
-}.four {
-    background: rgba(195, 0, 255, 0.849);
-    transition-timing-function: ease-in-out;
-}
-.five {
-    background-color: rgb(6, 117, 6);
-    transition-timing-function: ease-in-out;
-}
-/* Sections */
-.section {
-    background-color: rgb(255, 255, 255);
-}
-.section-one {
-    background-color: rgb(0, 0, 0);
-}
-.section-two {
-    background-color: rgb(33, 214, 109);
-}
-/* Cards */
-.card-parent {
-    margin: auto;
-}
-.card-child {
-    background-color: rgb(0, 0, 0);
-    text-align: center;
-    border: 1px solid rgb(0, 0, 0);
-    border-bottom: none;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    display: inline-block;
-    height: 200px;
-    width: 200px;
-}
-.inner-child {
-    text-align: center;
-    color:rgb(255, 255, 255);
-    font-weight: 900;
-    width: 202px;
-    height: 2em;
+.card-para {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--clr-accent-400);
     border: none;
+    border-radius: 6em;
+    width: 8em;
+    height: 8em;
+}
+.card-link:link {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 10em;
+    height: 8vh;
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    background-color: var(--clr-accent-400);
+    line-height: 2.5;
+
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     background-color: rgb(6, 117, 6);

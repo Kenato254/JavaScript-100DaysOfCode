@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 body {
-    display: flex;
+    display: grid;
     min-height: 100vh;
     place-items: center;
     line-height: 1.6;
