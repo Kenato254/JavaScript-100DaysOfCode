@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 100 Days Of Code - Log
 ## This is my first round of 100DaysOfCode Challege. Entails, minimal of 1 hour of coding Monday to Sunday from 19th, Oct 2021 to 27th, Jan 2022.
 ## JavaScript.
@@ -15,3 +14,4 @@
 |[Day 13](#day-13) **31th Oct 2021**|Topics Covered: JS Classes and JS JSON. Extras: CSS Align(Center Vertically using padding, line-height, position & transform and flexbox). |[Day 14](#day-14) **1st Nov 2021**|Topics covered:JS Debugging, Style Guide and Best Practices. Extras: CSS Combinators.
 |[Day 15](#day-15) **2nd Nov 2021**|Topics: JS Reserved, Performance, Versions and ES5. Extra: CSS Practice design.|[Day 16](#day-16) **3rd Nov 2021**| Topic: More practice on general JS. Extra: Cloned an app with HTML/CSS.
 |[Day 17](#day-17) **4th Nov 2021**|
+
