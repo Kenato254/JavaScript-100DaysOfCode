@@ -15,3 +15,4 @@
 |[Day 15](#day-15) **2nd Nov 2021**|Topics: JS Reserved, Performance, Versions and ES5. Extra: CSS Practice design.|[Day 16](#day-16) **3rd Nov 2021**| Topic: More practice on general JS. Extra: Cloned an app with HTML/CSS.
 |[Day 17](#day-17) **4th Nov 2021**|
 
+    
