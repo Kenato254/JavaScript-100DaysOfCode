@@ -1,0 +1,73 @@
+body {
+    background-color:rgb(243, 230, 230);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.para {
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 800;
+    border-radius: .5em;
+    padding: .5em;
+    cursor: pointer;
+}
+.parent .tooltip-card {
+    visibility: hidden;
+}
+.parent:hover .tooltip-card {
+    visibility: visible;
+}
+.tooltip-card {
+    font-size: .9em;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(49, 47, 47);
+    color: white;
+    padding: 15px;
+    border-radius: .5em;
+    width: 350px;
+    height: auto;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.img-prop {
+    float: left;
+    border-radius: 3em;
+    margin-right: 1.5em;
+}
+.tooltip-child-two {
+    padding: 0;
+    margin: auto;
+}
+.tooltip-child::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid rgb(184, 182, 182);
+    width: auto; 
+}
+.tooltip-h3 {
+    display: inline-block;
+    padding: 0;
+    margin: 0 5px 0 0;
+}
+.tooltip-span-one {
+    color: rgb(184, 182, 182);
+}
+.tooltip-zero {
+    margin: 10px;
+}
+.outlined {
+    color: rgb(184, 182, 182);
+    padding: 0;
+}
+.tooltip-para {
+    display: inline-block;
+    color: rgb(184, 182, 182);
+    margin: 0 0 10px 0;
+}
+.tooltip-last-item p {
+    color: rgb(184, 182, 182);
+    margin: 10px
+}
