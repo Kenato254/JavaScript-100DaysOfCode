@@ -1,0 +1,90 @@
+body {
+    position: relative;
+    padding: .5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 60vw;
+    border-radius: 1em;
+    box-shadow: 0 4px 8px 0 rgba(146, 148, 146, 0.226), 0 0px 20px 0 rgba(143, 146, 143, 0.144);
+}
+section, nav {
+    margin: 1em;
+}
+div {
+    margin-bottom: 1em;
+}
+h2, h3 {
+    text-align: center;
+}
+h2::after {
+    content: "";
+    display: block;
+    border-bottom: 1px dotted green;
+    text-align: center;
+    width: auto;
+}
+a {
+    padding: .8em;
+    text-decoration: none;
+}
+a.vertical-div:link {
+    color: white;
+    background-color: rgb(245, 242, 238);
+}
+a.vertical-div:hover{
+    background-color: rgba(46, 48, 46, 0.753);
+    color: rgb(255, 255, 255);
+}
+a.vertical-div:focus {
+    background-color: rgb(0, 128, 0);
+    color: rgb(255, 255, 255);
+}
+.vertical {
+    display: inline-grid;
+    width: 200px;
+    height: auto;
+}
+.base {
+    display: inline-grid;
+}
+.horizontal-two {
+    display: inline-flex;
+}
+.horizontal {
+    display: inline-flex;
+}
+a.horizontal-div:link {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0) ;
+}
+a.horizontal-div:hover{
+    background-color: rgba(46, 48, 46, 0.753);
+    color: rgb(255, 255, 255);
+}
+a.horizontal-div:focus {
+    background-color: rgb(0, 128, 0);
+    color: rgb(255, 255, 255);
+}
+
+.stretch::after {
+    content: "";
+    padding-left: 10vw;
+}
+
+a.horizontal-two-div:link {
+    color: rgb(0, 0, 0);
+    background-color: rgb(245, 242, 238);
+}
+a.horizontal-two-div:hover{
+    background-color: rgb(182, 180, 177);
+    color: rgb(255, 255, 255);
+}
+a.horizontal-two-div:focus {
+    background-color: rgb(0, 128, 0);
+    color: rgb(255, 255, 255);
+}
