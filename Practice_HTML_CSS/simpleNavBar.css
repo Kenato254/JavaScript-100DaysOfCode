@@ -32,6 +32,13 @@ a {
     padding: .8em;
     text-decoration: none;
 }
+ul {
+    padding: 0;
+}
+li a {
+    border: 1px solid black;
+}
+
 a.vertical-div:link {
     color: white;
     background-color: rgb(245, 242, 238);
