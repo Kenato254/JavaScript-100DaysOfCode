@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    background-color: rgba(128, 128, 128, 0.041);
+}
+/* :root {
+    --link-width: 8vw;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+}
+ul li {
+    width: var(--link-width);
+    height: calc(var(--link-width) * .5);
+}
+li a, .blank {
+    padding: .5em;
+    margin:auto;
+    display: block;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.774);
+    color: white;
+}
+
+.blank {
+    background-color: rgba(0, 0, 0, 0.774);
+    height: calc(var(--link-width) * .5);
+}
+@media screen and (max-width:767px){
+    ul {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+    }
+    ul li {
+        width: 100%;
+        height: auto;
+    }
+} */
+div {
+    text-align: center;
+    margin-top: .2em;
+    font-size: 30vh;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.637), 0 0px 10px 0 rgba(143, 146, 143, 0.144);
+    width: 90vw;
+    height: 50vh;
+    border-radius: 1em;
+    line-height: 1.6;
+    background-color: rgb(255, 255, 255);
+
+}
+ul, section {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+li a {
+    text-decoration: none;
+    width: 10vw;
+    display: block;
+    padding: .5em;
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+}
+li a:hover {
+    background-color: rgb(0, 0, 0);
+}
+li a:active {
+    background-color: rgb(128, 115, 0);
+}
+.blank {
+    width: 50%;
+    height: 2.15em;
+    background-color: rgba(0, 0, 0, 0.637);
+}
+@media screen and (max-width: 767px) {
+    body {
+        padding: .5em;
+    }
+    div {
+        font-size: 12vh;
+        padding-top: 1em;
+        line-height: 150px;
+    }
+    ul {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    li a {
+        display: block;
+        width: auto;
+    }
+    .blank {
+        display: none;
+        width: 100%;
+    }
+}

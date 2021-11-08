@@ -38,7 +38,9 @@ ul {
 li a {
     border: 1px solid black;
 }
-
+section > div a{
+    color: wheat
+}
 a.vertical-div:link {
     color: white;
     background-color: rgb(245, 242, 238);
