@@ -33,9 +33,7 @@ function handleClick(e) {
     placeMark(cell, currentClass)
     if (checkWin(currentClass)) {
         console.log('Winner');
-    } else {
-        console.log('No Winner');
-    }
+    } 
     // Check For win
     // Check for Draw
     // Switch Turns
@@ -58,8 +56,8 @@ function setBoardHoverClass() {
     }
 }
 function checkWin(currentClass) {
-    WINNING_COMBINATIONS.some(combination => {
-        return combination.every(index => {
+    WINNING_COMBINATIONS.some((combination) => {
+        return combination.every((index) => {
             return cellElements[index].classList.contains(currentClass);
         })
     })
