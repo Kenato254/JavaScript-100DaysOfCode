@@ -70,7 +70,7 @@ let firstIndex = nums.findIndex(func8); // Returns first index of find()
 function func8(value, index, array) {
     return value > 50;
 }
-
+console.log(firstIndex)
 // Array.from() Returns an array object from any object with a length property/iterable object
 const firstName = Array.from('Kennedy');
 
@@ -84,4 +84,4 @@ let text = '';
 for (let x of keys) {
     text += x + '<br>';
 }
-console.log(text)
+// console.log(text)
