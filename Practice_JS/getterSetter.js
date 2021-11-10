@@ -7,15 +7,14 @@ function getSetLang(lng) {
         get lang() {
         return this.language;
         },
+        // Set an object property using a setter:
         set lang(value) {
         this.language = value;
         }
     };
     
-    // Set an object property using a setter:
     return person.lang = lng;
 }  
-  // Display data from the object using a getter:
 getSetLang('sw');
 
 function defObjectProperty() {

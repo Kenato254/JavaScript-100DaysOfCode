@@ -100,13 +100,14 @@ function freezObj() {
     Object.freeze(CONTACT); // Uneditable
 
     try {
-        CONTACT = {};
+        CONTACT.email = "kenedygitonga@gmail.com";
     } 
     catch (TypeError) {
-        console.log("CONTACT cannot be reassigned!");
+        console.log("CONTACT is uneditable!");
     }
     return CONTACT;
 }
+freezObj()
 
 // Number 7 arrow function 
 const add = (a, b) => a+b;

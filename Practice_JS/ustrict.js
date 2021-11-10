@@ -23,4 +23,4 @@ function func2(){
 }
 var hello;
 hello = ()=>'Hello world';
-console.log(hello().this)
+console.log(hello())
