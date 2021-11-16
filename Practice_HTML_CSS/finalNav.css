@@ -24,7 +24,7 @@ li a {
 }
 li:last-child {
     border-right: none;
-  }
+}
 li a:hover {
     background-color: rgba(241, 240, 240, 0.219);
 }
