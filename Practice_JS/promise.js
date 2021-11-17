@@ -31,3 +31,15 @@ function myMap() {
 // console.log(myMap().values());
 // console.log(myMap().size);
 // console.log(myMap().clear());
+
+const myPromise = Promise.resolve('Processing data....');
+
+(async () => {
+  try {
+    console.log(await myPromise);
+  } catch {
+    throw new Error(`Oops didn't work`);
+  } finally {
+    console.log('Data processed!');
+  }
+})();

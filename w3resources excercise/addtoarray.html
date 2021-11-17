@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: subgrid;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 5em;
+        }
+    </style>
+    <title>Add to array</title>
+</head>
+<body>
+    <div id="parent">
+        <input type="text" id="text" name="text"/>
+        <input type="submit" value="add" id="add"/>
+        <input type="submit" value="Display" id="display"/>
+    </div>
+    <script>
+        let parent = document.getElementById("parent");
+        let text = document.getElementById("text");
+        let add = document.getElementById("add");
+        let display = document.getElementById("display");
+        //const arr = [];
+        //let div = [];
+
+        add.addEventListener('click', addToArray)
+        function addToArray() {
+            if ((text.value === null)||(text.value === undefined) ||(text.value === '')) {
+                let required = document.createTextNode("Required!");
+                let p = document.createElement('p');
+                p.appendChild(required);
+                parent.appendChild(p);
+            }
+        }
+    </script>
+</body>
+</html>

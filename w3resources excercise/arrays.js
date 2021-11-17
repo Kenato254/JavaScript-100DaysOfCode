@@ -82,10 +82,63 @@ function mostFrequent(arr) {
   For example if you input 'The Quick Brown Fox' the output should be 'tHE qUICK bROWN fOX'.
 */
 function swapCase(str) {
-    let pattern = /[A-Z]/
-    let cap = str.match(/[A-Z]/g)
-    let low = str.match(/[a-z]/g)
-    str = str.replace(pattern, )
-    console.log(cap, low)
+    let newStr = '';
+    for (let n = 0; n < str.length; n++) {
+        if (isUpper(str[n])) {
+            // console.log(str[n].toLowerCase());
+            newStr += str[n].toLowerCase();
+        } else {
+            newStr += str[n].toUpperCase();
+        }
+    }
+    console.log(newStr);
 }
-swapCase("The Quick Brown Fox")
+
+function isUpper(string) {
+    if (string.match(/[A-Z]/)) {
+        return true;
+    } else {
+        return;
+    }
+}
+// swapCase("The Quick Brown Fox")
+
+/*
+Write a JavaScript program which prints the elements of the following array. Go to the editor
+Note : Use nested for loops.
+Sample array : var a = [[1, 2, 1, 24], [8, 11, 9, 4], [7, 0, 7, 27], [7, 4, 28, 14], [3, 10, 26, 7]];
+Sample Output :
+"row 0"
+" 1"
+" 2"
+" 1"
+" 24"
+"row 1"
+------
+------
+*/
+function print2DArr(arr) {
+    for(let x in arr) {
+        console.log('row '+x);
+        for(let y in arr[x]) {
+            console.log(arr[x][y]);
+        }
+    }
+}
+// print2DArr([[1, 2, 1, 24], [8, 11, 9, 4], [7, 0, 7, 27], [7, 4, 28, 14], [3, 10, 26, 7]]);
+
+/*
+ Write a JavaScript program to compute the sum and product of an array of integers. Go to the editor
+Click me to see the solution
+*/
+function sumProductArr(arr) {
+    let sum = arr.reduce((total, value) => {
+        return total += value;
+    });
+    let prod = arr.reduce((prod, value)=> {
+        return prod *= value;
+    });
+    console.log(sum, prod)
+}
+// sumProductArr([1, 2, 3, 4, 5, 6]);
+
