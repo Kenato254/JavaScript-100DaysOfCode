@@ -6,11 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
-            display: subgrid;
+            display: grid;
             justify-content: center;
             align-items: center;
             text-align: center;
             margin-top: 5em;
+        }
+        .element {
+            width: 20em;
+            height: auto;
+            text-align: start;
         }
     </style>
     <title>Add to array</title>
@@ -18,24 +23,54 @@
 <body>
     <div id="parent">
         <input type="text" id="text" name="text"/>
-        <input type="submit" value="add" id="add"/>
-        <input type="submit" value="Display" id="display"/>
+        <input type="submit" value="add" id="addBotton"/>
+        <input type="submit" value="Display" id="displayBotton"/>
+    </div>
+    <hr style="width:20em;" align="center"/>
+    <div id="element" class="element">
     </div>
     <script>
         let parent = document.getElementById("parent");
         let text = document.getElementById("text");
-        let add = document.getElementById("add");
-        let display = document.getElementById("display");
-        //const arr = [];
-        //let div = [];
+        let addBotton = document.getElementById("addBotton");
+        let displayBotton = document.getElementById("displayBotton");
+        let displayElement = document.getElementById("element")
 
-        add.addEventListener('click', addToArray)
-        function addToArray() {
+        // Input data node
+
+        const arr = [];
+
+        function verifyDataExist(clearDisplay) {
+            if (clearDisplay) {
+                displayElement.remove()
+            }
+        }
+
+        // Handle Click Add botton
+        addBotton.addEventListener('click', addDataToArray)
+        function addDataToArray() {
+            // Fetch user input then adds it to a paragraph, to div finally array
             if ((text.value === null)||(text.value === undefined) ||(text.value === '')) {
-                let required = document.createTextNode("Required!");
+                let inputNode = document.createTextNode("Required");
                 let p = document.createElement('p');
-                p.appendChild(required);
-                parent.appendChild(p);
+                p.appendChild(inputNode);
+                displayElement.appendChild(p);
+            } else {
+                arr.push(text.value);
+            }
+            return arr;
+        }
+
+        // Handle Click Display botton
+        displayBotton.addEventListener('click', displayData)
+        function displayData() {
+            console.log(displayElement)
+            // Displays user ot the page
+            let p;
+            for(let element in arr ) {
+                p = document.createElement('p');
+                p.appendChild(document.createTextNode(`Element ${element} = ${arr[element]}`));
+                displayElement.appendChild(p);
             }
         }
     </script>

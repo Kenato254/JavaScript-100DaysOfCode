@@ -17,4 +17,5 @@
 |[Day 19](#day-19) **6th Nov 2021**|Topics: JS Rest Operator, Spread Operator, Desctructing assignments. Extras: CSS Navigations Bars;|[Day 20](#day-20) **7th Nov 2021**|Topic: Follow up Class on Youtube(Tic Tac Toe).
 |[Day 21](#day-21) **8th Nov 2021**|Topics: JS ECS 2017. Extras: CSS Horizontal Navigation Bar.|[Day 22](#day-22) **9th Nov 2021**|Topic: ECMAScript 2018.
 |[Day 23](#day-23) **10th Nov 2021**|Topics: JS Practice Exercises @w3resource.com. Extras: CSS Dropdowns.|[Day 24](#day-24) **11th Nov 2021**|Extras: Dropdowns, Images Gallery & Image Sprites.
-|[Day 25](#day-25) **16th Nov 2021**|Covered: Practice questions on w3schools.com|[Day 26](#day-26) **17th Nov 2021**|Topic: JS DOM & Events.
+|[Day 25](#day-25) **16th Nov 2021**|Covered: Practice questions at w3schools.com|[Day 26](#day-26) **17th Nov 2021**|Topic: JS DOM & Events.
+|[Day 27](#day-27) **18th Nov 2021**|Topic: JS Practice Questions at w3schools.com. Extras: CSS Image Sprites and Attribute Selectors
