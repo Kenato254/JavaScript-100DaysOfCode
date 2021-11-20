@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="counter.css">
+    <title>Counter</title>
+</head>
+<body>
+    <main>
+        <div>
+            <h1>Counter</h1>
+            <p id="counter">0</p>
+            <button id="decrease">DESCREASE</button>
+            <button id="reset">RESET</button>
+            <button id="increase">INCREASE</button>
+            <p id="test"></p>
+        </div>
+    </main>
+    <script>
+        window.onload = function() {
+            let counterDisplay = document.getElementById("counter");
+            let decreaseCounter = document.getElementById("decrease");
+            let increaseCounter = document.getElementById("increase");
+            let resetCounter = document.getElementById('reset');
+            let counter = 0;
+            // Changed Counter style -> color
+            function countColor(count) {
+                return count === 0 ? 'black': count > 0 ? 'green': 'red';
+            };
+            // Decrease counter ->  -=1 
+            decreaseCounter.addEventListener('click', ()=> {
+                counterDisplay.innerHTML = counter -= 1;
+                counterDisplay.style.color = countColor(counter);
+            });
+            // Increase Counter -> +=1
+            increaseCounter.addEventListener('click', ()=> {
+                counterDisplay.innerHTML = counter += 1;
+                counterDisplay.style.color = countColor(counter);
+
+            });
+            // Reset Counter -> 0
+            resetCounter.addEventListener('click', ()=> {
+                counter = counter < 0 ? counter -(counter): counter - counter;
+                counterDisplay.innerHTML = counter;
+                counterDisplay.style.color = "black";
+            });    
+        }
+    </script>
+</body>
+</html>
