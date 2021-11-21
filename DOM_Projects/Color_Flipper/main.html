@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Color Flipper</title>
+</head>
+<body>
+    <main>
+        <div>
+            <p>Background Color: <span id="span">red</span></p>
+            <button onclick="changeBackground()">CLICK ME</button>
+        </div>
+    </main>
+    <script>
+        let span = document.getElementById("span");
+        let body = document.getElementsByTagName('BODY')[0];
+        let colors = ['Red', '#F15025', 'Green', 'Rgba(133,122,200)'];
+        function changeBackground() {
+            let color = Math.floor(Math.random()* (colors.length - 0));
+            span.innerHTML = colors[color];
+            body.style.backgroundColor = colors[color].toLowerCase();
+        }
+    </script>
+</body>
+</html>
