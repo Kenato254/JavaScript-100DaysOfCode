@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color:rgba(183, 223, 216, 0.199);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+img {
+    border-radius: 85px;
+}
+h1.title {
+    position: relative;
+    margin-bottom: 1em;
+    letter-spacing: 3px;
+}
+h1.title::after {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: '';
+    background-color: rgb(83, 170, 241);
+    width: 2.5em;
+    height: 4px;
+    display: block;
+}
+h3#name {
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+h3#job {
+    color: rgba(83, 170, 241, 0.685);
+    margin-bottom: 0;
+    margin-top: 0;
+}
+p#desc {
+    color: gray;
+}
+.img-div {
+    width: 170px;
+    height: 170px;
+    margin: 16px auto 0 auto;
+    border-radius: 85px;
+    position: relative;
+    z-index: 1;
+}
+.img-div::before {
+    content: open-quote;
+    position: absolute;
+    font-size: 2.5em;
+    top: 0;
+    left: 0;
+    background-color: rgb(83, 170, 241);
+    color: rgb(255, 255, 255);
+    border-radius: .5em;
+    width: 1em;
+    height: 1em;
+}
+.img-div::after {
+    position: absolute;
+    content: '';
+    left: 10px;
+    top: -5px;
+    z-index: -1;
+    background-color: rgb(83, 170, 241);
+    border-radius: 85px;
+    width: 170px;
+    height: 170px;
+}
+.container {
+    padding: 1em;
+}
+div.child-container {
+    width: 50vw;
+    height: auto;
+    padding: 1em;
+    box-shadow: 0 0 15px 0 rgba(184, 178, 178, 0.247);
+    background-color: rgb(255, 255, 255);
+    border-radius: .5em;
+}
+div.button-container {
+    margin: 2px;
+    padding: 0;
+}
+button {
+    background-color: transparent;
+    border: none;
+    color: rgb(65, 153, 225);
+}
+button i {
+    cursor: pointer;
+}
+.swap {
+    background-color:rgba(183, 223, 216, 0.363);
+    padding: .3em;
+    border: 3px solid;
+    border-radius: .5em;
+    cursor: pointer;
+    letter-spacing: 3px;
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        margin: 0;
+    }
+    div.child-container {
+        width: 80vw;
+        height: auto;
+    }
+}
