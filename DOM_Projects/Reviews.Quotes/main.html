@@ -73,7 +73,7 @@
             desc.innerHTML = employees[index].desc;
         }
         left.addEventListener('click', ()=> {
-            /* Left Move */
+            /* Move Left */
             if (count <= employees.length - 1) {
                 if (count === 0) {
                     count = employees.length - 1;
@@ -84,7 +84,7 @@
             switchRevivews(count);
         });
         right.addEventListener('click', ()=> {
-            /* Right Move */
+            /* Move Right */
             if (count >= 0) {
                 if (count === employees.length -1) {
                     count = 0;
