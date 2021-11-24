@@ -20,3 +20,4 @@
 |[Day 25](#day-25) **16th Nov 2021**|Covered: Practice questions at w3schools.com|[Day 26](#day-26) **17th Nov 2021**|Topic: JS DOM & Events.
 |[Day 27](#day-27) **18th Nov 2021**|Topics: JS Practice Questions at w3schools.com. Extras: CSS Image Sprites and Attribute Selectors.|[Day 28](#day-28) **19th Nov 2021**|Topics:CSS Box-Shadow and Box-Shadow techniques, @Font-Face, and Vendor Prefixes.
 |[Day 29](#day-29) **20th Nov 2021**|Topics: JS DOM Practice Projects at johnsmilga.com I did a Simple Counter.|[Day 30](#day-30) **21th Nov 2021**|Topic: JS DOM Practice Projects at johnsmilga.com. Worked on Color Flipper.
+|[Day 31](#day-31) **22th Nov 2021**|Covered:JS DOM Practice Projects at johnsmilga.com. Worked on Reviews/Quotes.|[Day 32](#day-32) **23th Nov 2021**|Covered: JS Practice Questions at w3resources. Extras: CSS Counters and Web Layout.
