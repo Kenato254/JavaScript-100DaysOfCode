@@ -14,11 +14,11 @@
             <h1 class="title">Our Reviews</h1>
             <div class="child-container">
                 <div class="img-div">
-                    <img id="img" src="https://avatars.githubusercontent.com/u/66670644?v=4" width="170" height="170" alt="profile picture">
+                    <img id="img" src="" width="170" height="170" alt="profile picture">
                 </div>
                 <h3 id="name"></h3>
                 <h3 id="job"></h3>
-                <p id="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, sequi enim sed, quo veniam ipsa, quas voluptas dolore quam cum laudantium laborum asperiores unde facilis ratione? Quo ullam earum autem!</p>
+                <p id="desc"></p>
                 <div class="button-container">
                     <button class="prev-btn">
                         <i id="back" class="material-icons">arrow_back_ios_new</i>
@@ -33,12 +33,14 @@
     </main>
     <script>
         "use strict";
+        /* Select Elements*/
         let nameSelector = document.getElementById('name')
         let imgSelector = document.getElementById('img');
         let job = document.getElementById('job');
         let desc = document.getElementById('desc');
+        /* Employees Object*/
         const employees = [
-            {
+            {   
                 name: 'Samrawit Fetene',
                 job: 'Marketing Executive',
                 picture: 'https://media-exp1.licdn.com/dms/image/C4E03AQHSTRMWC6p17g/profile-displayphoto-shrink_400_400/0/1629807762570?e=1643241600&v=beta&t=BKvvsPS06um9c8bEODZdrHl-lHcrobbgmu-LfCdanvU',
@@ -57,18 +59,21 @@
                 desc: 'Helvetica artisan kinfolk thundercats lumbersexual blue bottle. Disrupt glossier gastropub deep v vice franzen hell of brooklyn twee enamel pin fashion axe.photo booth jean shorts artisan narwhal.'   
             }
         ];
+        /* Select Buttons*/
         let left = document.getElementById('back');
         let right = document.getElementById('forward');
         let random = document.getElementById('shuffle');
         
         let count = 0
         function switchRevivews(index) {
+            /* Switch Employees Information */
             nameSelector.innerHTML = employees[index].name;
             imgSelector.src = employees[index].picture;
             job.innerHTML = employees[index].job;
             desc.innerHTML = employees[index].desc;
         }
         left.addEventListener('click', ()=> {
+            /* Move Left */
             if (count <= employees.length - 1) {
                 if (count === 0) {
                     count = employees.length - 1;
@@ -79,6 +84,7 @@
             switchRevivews(count);
         });
         right.addEventListener('click', ()=> {
+            /* Move Right */
             if (count >= 0) {
                 if (count === employees.length -1) {
                     count = 0;
@@ -89,9 +95,12 @@
             switchRevivews(count);
         });
         random.addEventListener('click', ()=> {
+            /* Random Move */
             count = Math.floor(Math.random()* (employees.length - 0));
             switchRevivews(count);
         });
+        /* Initial Employee Information Allocation */
+        window.onload(switchRevivews(1));
     </script>
 </body>
 </html>
