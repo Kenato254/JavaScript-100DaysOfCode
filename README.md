@@ -21,4 +21,4 @@
 |[Day 27](#day-27) **18th Nov 2021**|Topics: JS Practice Questions at w3schools.com. Extras: CSS Image Sprites and Attribute Selectors.|[Day 28](#day-28) **19th Nov 2021**|Topics:CSS Box-Shadow and Box-Shadow techniques, @Font-Face, and Vendor Prefixes.
 |[Day 29](#day-29) **20th Nov 2021**|Topics: JS DOM Practice Projects at johnsmilga.com I did a Simple Counter.|[Day 30](#day-30) **21th Nov 2021**|Topic: JS DOM Practice Projects at johnsmilga.com. Worked on Color Flipper.
 |[Day 31](#day-31) **22th Nov 2021**|Covered:JS DOM Practice Projects at johnsmilga.com. Worked on Reviews/Quotes.|[Day 32](#day-32) **23th Nov 2021**|Covered: JS Practice Questions at w3resources. Extras: CSS Counters and Web Layout.
-|[Day 33](#day-33) **24th Nov 2021**|Topics: JS DOM Practice Projects at johnsmilga.com, worked on a basic navbar. Extras: CSS Box Sizing and Flexbox.
+|[Day 33](#day-33) **24th Nov 2021**|Topics: JS DOM Practice Projects at johnsmilga.com, worked on a basic navbar. Extras: CSS Box Sizing and Flexbox.|[Day 34](#day-34) **25th Nov 2021**|Topics: JS DOM Practice Projects at johnsmilga.com; completed working on the basic navbar(Responsive) I started yesterday.
