@@ -19,7 +19,10 @@
 |[Day 23](#day-23) **10th Nov 2021**|Topics: JS Practice Exercises @w3resource.com. Extras: CSS Dropdowns.|[Day 24](#day-24) **11th Nov 2021**|Extras: Dropdowns, Images Gallery & Image Sprites.
 |[Day 25](#day-25) **16th Nov 2021**|Covered: Practice questions at w3schools.com|[Day 26](#day-26) **17th Nov 2021**|Topic: JS DOM & Events.
 |[Day 27](#day-27) **18th Nov 2021**|Topics: JS Practice Questions at w3schools.com. Extras: CSS Image Sprites and Attribute Selectors.|[Day 28](#day-28) **19th Nov 2021**|Topics:CSS Box-Shadow and Box-Shadow techniques, @Font-Face, and Vendor Prefixes.
-|[Day 29](#day-29) **20th Nov 2021**|Topics: JS DOM Practice Projects at johnsmilga.com I did a Simple Counter.|[Day 30](#day-30) **21th Nov 2021**|Topic: JS DOM Practice Projects at johnsmilga.com. Worked on Color Flipper.
-|[Day 31](#day-31) **22th Nov 2021**|Covered:JS DOM Practice Projects at johnsmilga.com. Worked on Reviews/Quotes.|[Day 32](#day-32) **23th Nov 2021**|Covered: JS Practice Questions at w3resources. Extras: CSS Counters and Web Layout.
+|[Day 29](#day-29) **20th Nov 2021**|Topics: JS DOM Practice Projects at johnsmilga.com I did a Simple Counter.|[Day 30](#day-30) **21st Nov 2021**|Topic: JS DOM Practice Projects at johnsmilga.com. Worked on Color Flipper.
+|[Day 31](#day-31) **22nd Nov 2021**|Covered:JS DOM Practice Projects at johnsmilga.com. Worked on Reviews/Quotes.|[Day 32](#day-32) **23rd Nov 2021**|Covered: JS Practice Questions at w3resources. Extras: CSS Counters and Web Layout.
 |[Day 33](#day-33) **24th Nov 2021**|Topics: JS DOM Practice Projects at johnsmilga.com, worked on a basic navbar. Extras: CSS Box Sizing and Flexbox.|[Day 34](#day-34) **25th Nov 2021**|Topics: JS DOM Practice Projects at johnsmilga.com; completed working on the basic navbar(Responsive) I started yesterday.
 |[Day 35](#day-35) **26th Nov 2021**|Covered:HTML, CSS, and Django: worked on my project's views and templates.|[Day 36](#day-36) **27th Nov 2021**|Topics: JS Browser Object Model(BOM).
+|[Day 37](#day-37) **28th Nov 2021**|Topics: Worked on my project's list view touching up some js, css, html and django functionalities.|[Day 38](#day-38) **29th Nov 2021**|Topics: JS&CSS: Designed a simple slideshow.
+|[Day 39](#day-39) **30th Nov 2021**|Topics: JS BOM Cookies.
+
