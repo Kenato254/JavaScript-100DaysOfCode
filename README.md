@@ -25,3 +25,4 @@
 |[Day 35](#day-35) **26th Nov 2021**|Covered:HTML, CSS, and Django: worked on my project's views and templates.|[Day 36](#day-36) **27th Nov 2021**|Topics: JS Browser Object Model(BOM).
 |[Day 37](#day-37) **28th Nov 2021**|Topics: Worked on my project's list view touching up some js, css, html and django functionalities.|[Day 38](#day-38) **29th Nov 2021**|Topics: JS&CSS: Designed a simple slideshow.
 |[Day 39](#day-39) **30th Nov 2021**|Topics: JS BOM Cookies.
+
