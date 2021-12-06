@@ -26,4 +26,4 @@
 |[Day 37](#day-37) **28th Nov 2021**|Topics: Worked on my project's list view touching up some js, css, html and django functionalities.|[Day 38](#day-38) **29th Nov 2021**|Topics: JS&CSS: Designed a simple slideshow.
 |[Day 39](#day-39) **30th Nov 2021**|Topics: JS BOM Cookies.|[Day 40](#day-40) **01st Dec 2021**|Topics: JS Document Object Model Recap.
 |[Day 41](#day-41) **02nd Dec 2021**|Topics: JavaScript Form Validation(DOM). |[Day 42](#day-42) **03rd Dec 2021**|Topics: JS Practice questions at http://interviewbit.com. Extras: Worked on my movie ticketing system(Personal project).
-|[Day 43](#day-43) **04rd Dec 2021**|Topics: DOM, CSS, Animation, and Events. JS Practice questions at https://interviewbit.com. (JS Implicit Type Coercion...) |[Day 44](#day-44) **05rd Dec 2021**|Topics: JS DOM Event Listener and Navigation.
+|[Day 43](#day-43) **04th Dec 2021**|Topics: DOM, CSS, Animation, and Events. JS Practice questions at https://interviewbit.com. (JS Implicit Type Coercion...) |[Day 44](#day-44) **05th Dec 2021**|Topics: JS DOM Event Listener and Navigation.
