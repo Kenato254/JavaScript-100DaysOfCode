@@ -28,7 +28,7 @@
 |[Day 41](#day-41) **02nd Dec 2021**|Topics: JavaScript Form Validation(DOM). |[Day 42](#day-42) **03rd Dec 2021**|Topics: JS Practice questions at http://interviewbit.com. Extras: Worked on my movie ticketing system(Personal project).
 |[Day 43](#day-43) **04th Dec 2021**|Topics: DOM, CSS, Animation, and Events. JS Practice questions at https://interviewbit.com. (JS Implicit Type Coercion...) |[Day 44](#day-44) **05th Dec 2021**|Topics: JS DOM Event Listener and Navigation.
 |[Day 45](#day-45) **06th Dec 2021**|Topics: JS Passed by value and passed by reference.|[Day 46](#day-46) **07th Dec 2021**|Topics: JS IIFEs(IIFY), Higher-Order Functions and Closures.
-|[Day 47](#day-47) **08th Dec 2021**|Topics: JS 'this' Keyword recap.|Day 48](#day-48) **09th Dec 2021**|Topics: JS call() and apply() functions.
-|Day 49](#day-49) **10th Dec 2021**|Topic: JS Function Invocaton.|Day 50](#day-50) **11th Dec 2021**|Topic: JS Function Parameters.
+|[Day 47](#day-47) **08th Dec 2021**|Topics: JS 'this' Keyword recap.|[Day 48](#day-48) **09th Dec 2021**|Topics: JS call() and apply() functions.
+|[Day 49](#day-49) **10th Dec 2021**|Topic: JS Function Invocaton.|[Day 50](#day-50) **11th Dec 2021**|Topic: JS Function Parameters.
 |[Day 51](#day-51) **12th Dec 2021**|Topics: JS DOM Nodes recap on DOM Navigation.
 
