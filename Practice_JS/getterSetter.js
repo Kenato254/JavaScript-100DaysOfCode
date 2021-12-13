@@ -19,7 +19,7 @@ getSetLang('sw');
 
 function defObjectProperty() {
     // Create an Object
-    const person = {
+      person = {
         firstName: "Kennedy",
         lastName: "Gitonga",
         language: "No"
