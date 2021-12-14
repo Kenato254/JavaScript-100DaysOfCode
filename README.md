@@ -32,3 +32,4 @@
 |Day 49](#day-49) **10th Dec 2021**|Topic: JS Function Invocaton.|Day 50](#day-50) **11th Dec 2021**|Topic: JS Function Parameters.
 |[Day 51](#day-51) **12th Dec 2021**|Topics: JS DOM Nodes recap on DOM Navigation.|[Day 52](#day-52) **13th Dec 2021**|Topics: JS DOM Collections and NodeList. Extra: Currying.
 |[Day 53](#day-53) **14th Dec 2021**|Topics: More on currying
+
