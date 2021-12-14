@@ -30,4 +30,5 @@
 |[Day 45](#day-45) **06th Dec 2021**|Topics: JS Passed by value and passed by reference.|[Day 46](#day-46) **07th Dec 2021**|Topics: JS IIFEs(IIFY), Higher-Order Functions and Closures.
 |[Day 47](#day-47) **08th Dec 2021**|Topics: JS 'this' Keyword recap.|Day 48](#day-48) **09th Dec 2021**|Topics: JS call() and apply() functions.
 |Day 49](#day-49) **10th Dec 2021**|Topic: JS Function Invocaton.|Day 50](#day-50) **11th Dec 2021**|Topic: JS Function Parameters.
-|[Day 51](#day-51) **12th Dec 2021**|Topics: JS DOM Nodes recap on DOM Navigation.
+|[Day 51](#day-51) **12th Dec 2021**|Topics: JS DOM Nodes recap on DOM Navigation.|[Day 52](#day-52) **13th Dec 2021**|Topics: JS DOM Collections and NodeList. Extra: Currying.
+|[Day 53](#day-53) **14th Dec 2021**|Topics: More on currying
