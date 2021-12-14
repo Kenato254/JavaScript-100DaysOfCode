@@ -1,0 +1,33 @@
+<!-- 
+    1. Here is a sample html file with a submit button. 
+    Now modify the style of the paragraph text through javascript code.
+    Clicking on the button the font, font size, and color of the paragraph text will be changed.
+ -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>JS DOM paragraph style</title>
+<style>
+    .democlass {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1em;
+        background-color: gold;
+        display: inline-block;
+    }
+</style>
+</head> 
+<body>
+<p id ='text'>JavaScript Exercises - w3resource</p> 
+<div>
+<button id="jsstyle"
+onclick="js_style()">Style</button>
+</div>
+<script>
+    function js_style() {
+        var para = document.getElementById('text');
+        para.setAttribute('class', 'democlass');
+    }
+</script>
+</body>
+</html>
