@@ -49,7 +49,7 @@ function log(date, importance, message) {
         `[${date.getHours()}:${date.getMinutes()}] [${importance}] ${message}`
     );
 }
-function curry(func) {
+function curry(func) { //!Partial
     return function curried(...args) {
         if(args.length >= func.length) {
             return func.apply(this, args);
@@ -66,3 +66,10 @@ log(new Date('2021-12-1 10:31:00')) ("INFO", "server running..."); //! log(date)
 log(new Date('2021-12-1 10:32:00')) ("GET") ("http://127.0.0:8080/home"); //! log(date)(importance)(message);
 let logNow = log(new Date('2021-12-1 10:33:00'));
 logNow("INFO", "Stopping server...");
+
+const list = (lastJoin, ...items) => {
+      const commaSeparated = items.slice(0,-1).join(", ");  
+      const lastItem = items.pop(); 
+      return `${commaSeparated} ${lastJoin} ${lastItem}`;
+}
+console.log(list("and", "red", "green", "blue"))

@@ -18,7 +18,7 @@ class LinkedList {
     }
     get_first_node() {
         //! Method to get first node in the list
-        return this.head.data;
+        return this.head;
     }
     set_last_node(value) {
         //! Method to set last node
@@ -45,7 +45,7 @@ class LinkedList {
     get_node_list() {
         //! Method to print the entire linked list nodes
         if(this.head === null) {
-            console.log(0);
+            console.log(null);
         }
         let existing_node = this.head;
         const nodeList = [];
