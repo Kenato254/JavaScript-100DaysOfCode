@@ -32,8 +32,10 @@
 |Day 49](#day-49) **10th Dec 2021**|Topic: JS Function Invocaton.|Day 50](#day-50) **11th Dec 2021**|Topic: JS Function Parameters.
 |[Day 51](#day-51) **12th Dec 2021**|Topics: JS DOM Nodes recap on DOM Navigation.|[Day 52](#day-52) **13th Dec 2021**|Topics: JS DOM Collections and NodeList. Extra: Currying.
 |[Day 53](#day-53) **14th Dec 2021**|Topics: More on currying.|[Day 54](#day-54) **15th Dec 2021**|Topics: Partial Application and Currying. Extra: JQuery Elements, CSS and DOM.
-[Day 55](#day-55) **16th Dec 2021**|Topics: JS More on Partial Application. |[Day 56](#day-56) **17th Dec 2021**|Topics: More on Functional Programming(JavaScript). 
-|[Day 57](#day-57) **18th Dec 2021**|Topics: JS Closures. |[Day 58](#day-58) **19th Dec 2021**|Topics: Built a calculator clone.(HTML, CSS & JavaScript).
+[Day 55](#day-55) **16th Dec 2021**|Topics: JS More on Partial Application. |[Day 56](#day-56) **18th Dec 2021**|Topics: More on Functional Programming(JavaScript). 
+|[Day 57](#day-57) **19th Dec 2021**|Topics: JS Closures. |[Day 58](#day-58) **20th Dec 2021**|Topics: Built a calculator clone.(HTML, CSS & JavaScript).
+|[Day 59](#day-59) **21th Dec 2021**|Topics: Data Structures(Linked List and Reverse Linked List).Revised Recursion. |[Day 60](#day-60) **22th Dec 2021**|Topics: Data Structures(Single Linked List).
+|[Day 61](#day-61) **23th Dec 2021**|Topics: Data Structure(Doubly Linked List).
 
 
 
