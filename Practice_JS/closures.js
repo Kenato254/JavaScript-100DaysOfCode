@@ -1,5 +1,7 @@
-//! Closures is an ability of function to remember variables and functions 
+//! Closures is an ability of a function to remember variables and functions 
 //! declared outside its scope
+//! In javascript closures are created every time a function is created, at a function creation time.
+
 
 function add(x) {
     let varr = 9;

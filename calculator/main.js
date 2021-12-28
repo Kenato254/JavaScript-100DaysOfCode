@@ -1,14 +1,13 @@
 let operands = document.querySelector("#para-operands");
 let results = document.querySelector("#results");
 let btns = document.querySelectorAll("[buttons]");
-let arr_operators = [" / ", " x ", " - ", " + ", "="];
-let other_operators = ["C", "CE", "%"];
+let arr_operators = [" ÷ ", " x ", " - ", " + ", " = "];
+let other_operators = ["C", "⌫", "%"];
 let operands_nums = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "."];
 
 let calculate = []; //! Concatenates String to be output on calculator screen
-let calculation; //! Concatenates String to be output on calculator screen
+let calculation = []; //! Concatenates String to be output on calculator screen
 let nums = [];
-
 
 operands_colors();
 function operands_colors() {
@@ -28,67 +27,111 @@ function operands_colors() {
 }
 function click_functionality(element) {
   //! Function provide EventHandler to log operators and operands to the calculator screen
+    //! This should always take a single number to perform calculation.
+  //! i.e Default (0 + input(any) -> results) => (0 + input(12) -> 12) => (12 - input(2) -> 10)
+
   element.addEventListener("click", () => {
     if (element.textContent === " + ") {
-      calculate.push(nums.join(''))
-      calculate.push(element.textContent);
-      operands.textContent = calculate.join('');
-      let addition = ()=> {
-          let sum = 0;
-          for (let num of calculate) {
-              if(isNaN(num) === false) {
-                  // console.log(num)
-                  sum += parseInt(num);
-              }
-          } return sum;
+      //! Performs addition operations
+      let x = results.textContent
+      console.log(x);
+      nums.push(element.textContent);
+      operands.textContent = nums.join("");
+      let addition = () => {
+        const arr = nums.join("").split(" ")
+        let sum = parseFloat(arr.shift());
+        for (let num of arr) {
+          num = parseFloat(num);
+          if (isNaN(num) === false) {
+            sum += num;
+            console.log(sum); 
+          }
+        }
+        return sum;
       };
-      calculation = addition();
-      results.textContent = addition(); 
-    } else if (element.textContent === " x ") {
-      calculate.push(element.textContent);
-      operands.textContent = calculate.join("");
-      let multiply = ()=> {
-        let multiple = 1;
-        for (let num of calculate) {
-            if(isNaN(num) === false) {
-                multiple *= parseInt(num);
-            }
-        } return multiple;
-    };
-    calculation = multiply();
-    results.textContent = multiply(); 
-    } else if (element.textContent === " / ") {
-      calculate.push(element.textContent);
-      operands.textContent = calculate.join("");
-      let division = ()=> {
-        let divide = 1;
-        for (let num of calculate) {
-            if(isNaN(num) === false) {
-                divide /= parseInt(num);
-            }
-        } return divide;
-    };
-    calculation = division();
-    results.textContent = division(); 
+      results.textContent = addition();
+
+    } else if (element.textContent === " - ") {
+      //! Performs addition operations
+      nums.push(element.textContent);
+      operands.textContent = nums.join("");
+      let substraction = () => {
+        const arr = nums.join("").split(" ")
+        let substract = parseFloat(arr.shift());
+        for (let num of arr) {
+          num = parseFloat(num);
+          console.log(typeof num)
+          if (isNaN(num) === false) {
+            substract -= num;
+            console.log(substract);
+          }
+        }
+        return substract;
+      };
+      results.textContent = substraction();
+
+    }else if (element.textContent === " x ") {
+      //! Performs Multiplication operations
+      nums.push(element.textContent);
+      operands.textContent = nums.join("");
+      let multiply = () => {
+        const arr = nums.join("").split(" ")
+        let multiple = parseFloat(arr.shift());
+        for (let num of arr) {
+          num = parseFloat(num);
+          console.log(typeof num)
+          if (isNaN(num) === false) {
+            multiple *= num;
+            console.log(multiple);
+          }
+        }
+        return multiple;
+      };
+      results.textContent = multiply();
+
+    } else if (element.textContent === " ÷ ") {
+      //! Performs Division operations
+      nums.push(element.textContent);
+      operands.textContent = nums.join("");
+      let division = () => {
+        const arr = nums.join("").split(" ")
+        let divide = parseFloat(arr.shift());
+        for (let num of arr) {
+          num = parseFloat(num);
+          console.log(typeof num)
+          if (isNaN(num) === false) {
+            divide /= num;
+            console.log(divide);
+          }
+        }
+        return divide;
+      };
+      results.textContent = division();
+
     } else if (element.textContent === "C") {
+      //! Clear screen
       nums = [];
-      calculate = [];
-      operands.textContent = calculate;
+      operands.textContent = [];
       results.textContent = "0";
-    }     else if (element.textContent === "=") {
+
+    } else if (element.textContent === " = ") {
       results.textContent = calculation;
       calculations();
-    }  else {
+
+    } else if (element.textContent === "⌫") {
+      nums.pop();
+      operands.textContent = nums.join("");
+
+    } else {
       nums.push(element.textContent);
-      // calculate.push(element.textContent);
-      // console.log(nums.join(""));
-      operands.textContent = calculate.join("");
+      operands.textContent = nums.join("");
+
     }
   });
 }
 function calculations() {
   //! Function performs calculations
   for (let each of calculate) {
-    console.log(each);
+    // console.log(each);
   }
 }
