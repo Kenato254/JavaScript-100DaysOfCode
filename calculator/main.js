@@ -21,7 +21,7 @@ function operands_colors() {
       click_functionality(each);
     } else if (operands_nums.includes(each.textContent)) {
       each.setAttribute("class", "operands");
-      click_functionality(each);
+      click_functionality(each);  
     }
   }
 }
