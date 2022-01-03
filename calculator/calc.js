@@ -24,34 +24,69 @@ function operands_colors() {
   }
 }
 function click_operands(element) {
+  //! Function handles clicked numerics
   element.addEventListener("click", () => {
     nums += element.textContent;
     operands.textContent = nums;
-    // calculate.push(element.textContent)
   });
+}
+var math_it_up = {
+  //! Transforms operators embedded in string
+  " + ": function name(a, b) {
+    return a + b;
+  },
+  " - ": function name(a, b) {
+    return a - b;
+  },
+  " ÷ ": function name(a, b) {
+    return a / b;
+  },
+  " x ": function name(a, b) {
+    return a * b;
+  },
+};
+function evaluate(param, op) {
+  //! Function handles chained operations
+  const arr = param.split(op); // console.log(arr);
+  let res = parseFloat(arr.shift());
+  for (let num of arr) {
+    num = parseFloat(num);
+    if (isNaN(num) === false) {
+      res = math_it_up[op](res, num);
+    }
+  }
+  results.textContent = res;
+  return res;
 }
 function click_operator(element) {
   //! This should always take a single number to perform calculation.
   //! i.e Default (0 + input(any) -> results) => (0 + input(12) -> 12) => (12 - input(2) -> 10)
-
   element.addEventListener("click", () => {
     switch (element.textContent) {
       case " + ":
+        nums += element.textContent;
+        nums = evaluate(nums, " + ");
         nums += element.textContent;
         operands.textContent = nums;
         break;
 
       case " - ":
         nums += element.textContent;
+        nums = evaluate(nums, " - ");
+        nums += element.textContent;
         operands.textContent = nums;
         break;
 
       case " ÷ ":
         nums += element.textContent;
+        nums = evaluate(nums, " ÷ ");
+        nums += element.textContent;
         operands.textContent = nums;
         break;
 
       case " x ":
+        nums += element.textContent;
+        nums = evaluate(nums, " x ");
         nums += element.textContent;
         operands.textContent = nums;
         break;
@@ -62,25 +97,27 @@ function click_operator(element) {
         break;
 
       case " = ":
-        if (nums.search(/ ÷ /) === 1) {
-          nums = eval(nums.replace(/ ÷ /, "/"));
-        } else if (nums.search(/ x /) === 1) {
-          console.log(nums);
-          nums = eval(nums.replace(/ x /, "*"));
+        if (nums.search(/ ÷ /g) !== -1) {
+          nums = eval(nums.replace(/ ÷ /g, "/"));
+        } else if (nums.search(/ x /) !== -1) {
+          nums = eval(nums.replace(/ x /g, "*"));
         } else {
           nums = eval(nums);
         }
         results.textContent = nums;
         break;
-        
+
       case "C":
         nums = "";
         operands.textContent = nums;
         results.textContent = 0;
         break;
-      
+
       case "+/-":
-        nums = nums * -1;
+        if (arr_operators.includes(nums[nums.length - 2])) {
+          console.log(nums[nums.length - 2]);
+        }
+        // nums = nums * -1;
         operands.textContent = nums;
         break;
     }
