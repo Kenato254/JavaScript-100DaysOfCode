@@ -1,0 +1,56 @@
+*, 
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    background: rgb(82,177,204);
+    background: linear-gradient(90deg, rgba(82,177,204,1) 32%, rgba(0,255,106,1) 74%);    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Gotham Rounded", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #000000;
+}
+.main {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.screen {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+}
+.body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 290px;
+}
+button {
+    width: 60px;
+    height: 55px;
+    flex-basis: calc(25%);
+    background-color: rgb(217, 248, 240);
+    border: none;  
+    align-self: center;
+}

