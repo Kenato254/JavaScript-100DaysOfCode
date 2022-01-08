@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center; line-height: 8; background-color:cornflowerblue; color: white;">
+        Fetch Json data Using Asychronous JavaScript and XML
+    </h1>
+    <!-- <div></div> -->
+    <script>
+        const csrftoken = getCookie('csrftoken');
+        // const request = new Request(
+        //     /* URL */
+        //     {
+        //         method: 'GET',
+        //         headers: {'X-CSRFToken': csrftoken},
+        //         mode: 'same-origin' // Do not send CSRF token to another domain.
+        //     }
+        // );
+        // fetch(request).then(function(response) {
+        //     // ...
+        // });
+        function getCookie(name) {
+            // Gets cookie from brower
+            let cookieValue = null;
+            if (document.cookie && document.cookie !== '') {
+                const cookies = document.cookie.split(';');
+                for (let i = 0; i < cookies.length; i++) {
+                    const cookie = cookies[i].trim();
+                    // Does this cookie string begin with the name we want?
+                    if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                        break;
+                    }
+                }
+            }
+            return cookieValue;
+        }
+        const dbParam = JSON.stringify({table:"cinema_moviemodel", limit: 5})
+        const xmlhttp = new XMLHttpRequest();
+        xmlhttp.onload = function () {
+            const myObj = JSON.parse(this.responseText);
+            console.log(`Response Type: ${this.responseType || null}`);
+            console.log(`Ready State: ${this.readyState}`);
+            console.log(`Status Code: ${this.status}`);
+            console.log(`Status Text: ${this.statusText}`);
+            console.log('\n')
+
+            let div = document.createElement('div').textContent = JSON.stringify(myObj);
+            document.body.append(div)
+            document.body.lastElementChild.innerHTML = div;
+        }
+        xmlhttp.open("GET", "http://127.0.0.1:9000/movies/data-json/"); // Initializes Request
+        //xmlhttp.setRequestHeader('X-CSRFToken', `${csrftoken}`);
+        xmlhttp.send("x=" + dbParam); // Sends Request
+        console.log("Get all Response Headers:", xmlhttp.getAllResponseHeaders())
+        console.log("Get Response Header -> Vary:", xmlhttp.getResponseHeader('Vary:'))
+    </script>    
+    <script src="http://127.0.0.1:9000/movies/data-json/"></script>
+    <!-- <script>
+        myFunc()
+        function myFunc(myObj) {
+            let demo = document.createElement('div');
+            demo.innerHTML = JSON.stringify(myObj)
+            document.body.appendChild(demo)
+        }
+    </script>
+    <script src="https://www.w3schools.com/js/demo_jsonp.php"></script> -->
+</body>
+</html>
