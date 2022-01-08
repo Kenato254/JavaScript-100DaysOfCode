@@ -40,5 +40,5 @@
 |[Day 65](#day-65) **28th Dec 2021**|Topics: Data Structures practice at GeeksforGeeks.|[Day 66](#day-66) **29th Dec 2021**|Topics: JavaScript Objects Notation. Extras: Data Structures Circular Linked List. 
 |[Day 67](#day-67) **30th Dec 2021**|Topic: Data Structures Circular Linked List. (JavaScript). Extra: Still on JavaScript Objects Notation. |[Day 68](#day-68) **2nd Jan 2022**|Topics:  Practiced Circular Linked List at GeeksforGeeks.
 |[Day 69](#day-69) **3rd Jan 2022**|Topics: Practiced Data Structures at Leetcode. |[Day 70](#day-70) **4th Jan 2022**|Topics: DS Practice Problems at Leetcode. Extras: CSRF Attack & Calculator Clone at Codedamn.
-
-
+|[Day 71](#day-71) **5th Jan 2022**|Topics: Practiced DS Problems on Linked List at Leetcode (JS). Completed my first project at Codedamn.|[Day 72](#day-72) **6th Jan 2022**|Topics: Asynchronous JavaScript and XML. Stumbled upon CORB by chance while fetching JSON data from the Django server.
+|[Day 73](#day-73) **7th Jan 2022**|Topics: Concluded on JSON. Extra: Building a simple Todo App on codedamn to be complete by later today.

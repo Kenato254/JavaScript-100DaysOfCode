@@ -102,7 +102,7 @@ function click_operator(element) {
         } else if (nums.search(/ x /) !== -1) {
           nums = eval(nums.replace(/ x /g, "*"));
         } else {
-          nums = eval(nums);
+          // nums = eval(nums);
         }
         results.textContent = nums;
         break;
