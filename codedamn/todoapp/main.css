@@ -4,8 +4,8 @@
     --clr--red: #ec2c2c;
     --clr--neutral-opaque: #eeeeeea4;
     --clr--black: #000000;
-    --clr--black: #000000;
-    color:rgb(48, 4, 48)
+    --clr--purple: #4903fc;
+    --clr--green: #03fcd7;
 }
 *, 
 ::before, 
@@ -48,7 +48,9 @@ main {
 .container {
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 0;
 }
 input[type=text] {
     width: 400px;
@@ -56,15 +58,17 @@ input[type=text] {
     border: none;
     padding: 5px;
     outline: none;
-    z-index: 0;
     position: relative;
+}
+input[id=task]{
+    width: 369px;
 }
 button.material-icons-outlined, 
 button.material-icons {
     width: 31px;
     height: auto;
     display: inline;
-    padding: 8px; 
+    padding: 7.5px; 
     cursor: pointer;
     align-self: center;
     border: none;
@@ -81,16 +85,40 @@ button.material-icons:hover {
 .delete{
     background-color: var(--clr--red);
 }
-p.error {
+.edit {
+    background-color:  var(--clr--purple);
+}
+.done {
+    background-color: var(--clr--green);
+}
+
+input#done + *:after {
+    content: " ";
+    background-color: #00000086;
+    width: 20%;
+    height: 2px;
     position: absolute;
-    /* display: none; */
-    z-index: 10;
+    top: 50%;
+    left: 10%;
+  } 
+
+p.error {
+    display: none;
+}
+.error-show {
+    display: inline;
 }
 
 @media screen and 
 (max-width: 767px){
     main {
         width: 100%;
-        font-size: 13px;
+        font-size: calc(10px + 1vw);
+    }
+    input[type=text] {
+        width: 50%;
+    }
+    input[placeholder="Add Task..."] {
+        width: calc(50% + 31px)
     }
 }
