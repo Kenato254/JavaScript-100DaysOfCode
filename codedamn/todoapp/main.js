@@ -43,10 +43,10 @@ function clickResponse() {
 }
 
 function createTaskList(task) {
-  // ? Create a div container, add class namely "container"
+  // ? Create a div container, add class named "container"
   let div = document.createElement("div");
   div.classList.add("container");
-  // ? Create a readonly text input element with an id namely "task"
+  // ? Create a readonly text input element with an id named "task"
   let input = document.createElement("input");
   input.setAttribute("type", "text");
   input.setAttribute("id", "task");
@@ -54,7 +54,7 @@ function createTaskList(task) {
   if (task.length > 0) {
     input.setAttribute("value", task);
   }
-  // ? Create three buttons and add classes namely "material-icons", "done", "edit" and "delete" respectively
+  // ? Create three buttons and add classes named "material-icons", "done", "edit" and "delete" respectively
   let btn1 = document.createElement("button");
   btn1.textContent = "check";
   btn1.setAttribute("title", "Task done!");

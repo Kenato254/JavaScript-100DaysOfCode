@@ -41,4 +41,7 @@
 |[Day 67](#day-67) **30th Dec 2021**|Topic: Data Structures Circular Linked List. (JavaScript). Extra: Still on JavaScript Objects Notation. |[Day 68](#day-68) **2nd Jan 2022**|Topics:  Practiced Circular Linked List at GeeksforGeeks.
 |[Day 69](#day-69) **3rd Jan 2022**|Topics: Practiced Data Structures at Leetcode. |[Day 70](#day-70) **4th Jan 2022**|Topics: DS Practice Problems at Leetcode. Extras: CSRF Attack & Calculator Clone at Codedamn.
 |[Day 71](#day-71) **5th Jan 2022**|Topics: Practiced DS Problems on Linked List at Leetcode (JS). Completed my first project at Codedamn.|[Day 72](#day-72) **6th Jan 2022**|Topics: Asynchronous JavaScript and XML. Stumbled upon CORB by chance while fetching JSON data from the Django server.
-|[Day 73](#day-73) **7th Jan 2022**|Topics: Concluded on JSON. Extra: Building a simple Todo App on codedamn to be complete by later today.
+|[Day 73](#day-73) **7th Jan 2022**|Topics: Concluded on JSON. Extra: Building a simple Todo App on codedamn to be complete by later today. |[Day 74](#day-74) **8th Jan 2022**|Topics: Writing Todo's app functionality.
+|[Day 75](#day-75) **10th Jan 2022**|Topics: Finalizing simple Todo App (HTML, CSS, JS). Basic Crud operations in the localStorage and Handling Dynamically created HTML in JS.|[Day 76](#day-76) **11th Jan 2022**|Topics: Finalized Todo App logic.   
+|[Day 77](#day-77) **12th Jan 2022**|Topics: Doubly Linked List on Leetcode(JavaScript). |[Day 78](#day-78) **13th Jan 2022**|Topics: JS Classes and Async.
+|[Day 79](#day-79) **14th Jan 2022**|Topics: JS Promises
