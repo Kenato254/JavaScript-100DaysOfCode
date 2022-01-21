@@ -44,4 +44,7 @@
 |[Day 73](#day-73) **7th Jan 2022**|Topics: Concluded on JSON. Extra: Building a simple Todo App on codedamn to be complete by later today. |[Day 74](#day-74) **8th Jan 2022**|Topics: Writing Todo's app functionality.
 |[Day 75](#day-75) **10th Jan 2022**|Topics: Finalizing simple Todo App (HTML, CSS, JS). Basic Crud operations in the localStorage and Handling Dynamically created HTML in JS.|[Day 76](#day-76) **11th Jan 2022**|Topics: Finalized Todo App logic.   
 |[Day 77](#day-77) **12th Jan 2022**|Topics: Doubly Linked List on Leetcode(JavaScript). |[Day 78](#day-78) **13th Jan 2022**|Topics: JS Classes and Async.
-|[Day 79](#day-79) **14th Jan 2022**|Topics: JS Promises
+|[Day 79](#day-79) **14th Jan 2022**|Topics: JS Promises and Asynchronous. |[Day 80](#day-80) **15th Jan 2022**|Topics: JS Promises.
+|[Day 81](#day-81) **16th Jan 2022**|Topic: Did my first Weekly Contest 276 on Leetcode. |[Day 82](#day-82) **17th Jan 2022**|Topic: Coding Problems on Leetcode.
+|[Day 83](#day-83) **18th Jan 2022**|Topic: Simple Quiz App Project on codedamn (HTML, CSS & JavaScript). |[Day 84](#day-84) **19th Jan 2022**|Topic: Simple Quiz App Project on codedamn (HTML, CSS & JavaScript). 
+|[Day 85](#day-85) **20th Jan 2022**|Topic: Still working on a Quiz App Project on codedamn (HTML, CSS & JavaScript). |[Day 86](#day-86) **21st Jan 2022**|Topic: Finalizing on a Quiz App Project on codedamn (HTML, CSS & JavaScript).
