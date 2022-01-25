@@ -48,3 +48,5 @@
 |[Day 81](#day-81) **16th Jan 2022**|Topic: Did my first Weekly Contest 276 on Leetcode. |[Day 82](#day-82) **17th Jan 2022**|Topic: Coding Problems on Leetcode.
 |[Day 83](#day-83) **18th Jan 2022**|Topic: Simple Quiz App Project on codedamn (HTML, CSS & JavaScript). |[Day 84](#day-84) **19th Jan 2022**|Topic: Simple Quiz App Project on codedamn (HTML, CSS & JavaScript). 
 |[Day 85](#day-85) **20th Jan 2022**|Topic: Still working on a Quiz App Project on codedamn (HTML, CSS & JavaScript). |[Day 86](#day-86) **21st Jan 2022**|Topic: Finalizing on a Quiz App Project on codedamn (HTML, CSS & JavaScript).
+|[Day 87](#day-87) **22nd Jan 2022**|Topic: Finalizing on Quiz App Project (JavaScript). |[Day 88](#day-88) **23rd Jan 2022**|Topic: Finalizing on Quiz App(JavaScript).
+|[Day 89](#day-89) **24th Jan 2022**|Topic: Finalizing on Quiz App(JavaScript). |[Day 89](#day-89) **25th Jan 2022**|Topic: Finished Quiz App project(JavaScript).
