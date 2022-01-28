@@ -49,4 +49,6 @@
 |[Day 83](#day-83) **18th Jan 2022**|Topic: Simple Quiz App Project on codedamn (HTML, CSS & JavaScript). |[Day 84](#day-84) **19th Jan 2022**|Topic: Simple Quiz App Project on codedamn (HTML, CSS & JavaScript). 
 |[Day 85](#day-85) **20th Jan 2022**|Topic: Still working on a Quiz App Project on codedamn (HTML, CSS & JavaScript). |[Day 86](#day-86) **21st Jan 2022**|Topic: Finalizing on a Quiz App Project on codedamn (HTML, CSS & JavaScript).
 |[Day 87](#day-87) **22nd Jan 2022**|Topic: Finalizing on Quiz App Project (JavaScript). |[Day 88](#day-88) **23rd Jan 2022**|Topic: Finalizing on Quiz App(JavaScript).
-|[Day 89](#day-89) **24th Jan 2022**|Topic: Finalizing on Quiz App(JavaScript). |[Day 89](#day-89) **25th Jan 2022**|Topic: Finished Quiz App project(JavaScript).
+|[Day 89](#day-89) **24th Jan 2022**|Topic: Finalizing on Quiz App(JavaScript). |[Day 90](#day-90) **25th Jan 2022**|Topic: Finished Quiz App project(JavaScript).
+|[Day 91](#day-91) **26th Jan 2022**|Topic: Started JS Essentials-1 Course on Cisco Netcad (Revising JS to capture what I might have missed in my previous course). |[Day 92](#day-92) **27th Jan 2022**|Topic: JS Essentials-1 Course on Cisco Netcad.
+|[Day 93](#day-93) **28th Jan 2022**|Topic: JS Essentials-1 Course on Cisco Netcad.(Data types)
